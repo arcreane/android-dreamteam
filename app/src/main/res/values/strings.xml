@@ -1,3 +1,15 @@
 <resources>
+
     <string name="app_name">DreamGames</string>
+
+    <string name="text2">SCORE DU JOUEUR :</string>
+
+    <string name="text3">SCORE DE IA :</string>
+
+    <string name="textz">CHOIX JOUEUR :</string>
+
+    <string name="texty">CHOIX IA :</string>
+
+    <string name="bouton2">RETOUR</string>
+
 </resources>
