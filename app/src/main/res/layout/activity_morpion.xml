@@ -128,5 +128,4 @@
         android:onClick="onClick"
         android:text="@string/text5" />
 
-
 </LinearLayout>
