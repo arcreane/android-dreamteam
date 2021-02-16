@@ -6,4 +6,11 @@
     <string name="text">Le joueur X , c\'est à toi de jouer!</string>
     <string name="text4">REJOUER</string>
     <string name="text5">RETOUR</string>
+    <string name="bouton2">RETOUR</string>
+    <string name="text2">Choisissez un signe</string>
+    <string name="textz">Vous avez pris</string>
+    <string name="texty">L\'adversaire a pris</string>
+    <string name="textv">Vous avez gagné !</string>
+    <string name="textw">Vous avez perdu... </string>
+    <string name="textx">C\'est une égalité !</string>
 </resources>

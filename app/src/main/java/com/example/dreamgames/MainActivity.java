@@ -15,9 +15,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick(View v)
+    public void onClick2(View v)
     {
         Intent gameActivity = new Intent(MainActivity.this, Morpion.class);
+        startActivity(gameActivity);
+    }
+
+    public void onClick1(View v)
+    {
+        Intent gameActivity = new Intent(MainActivity.this, PFC.class);
         startActivity(gameActivity);
     }
 }

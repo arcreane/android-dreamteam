@@ -25,6 +25,7 @@
         android:layout_weight="1"
         android:layout_below="@+id/text1"
         android:layout_marginHorizontal="10dp"
+        android:onClick="onClick1"
         android:layout_centerHorizontal="true"
         android:text="@string/bouton1" />
 
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_below="@+id/Image0"
-        android:onClick="onClick"
+        android:onClick="onClick2"
         android:layout_marginHorizontal="10dp"
         android:layout_centerHorizontal="true"
         android:text="@string/bouton3" />

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purplechelou"
+    tools:context=".PFC">
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TableLayout
+        android:id="@+id/tlayout"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:clickable="true"
+        android:onClick="onClick3"
+        android:src="@drawable/pierre" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:clickable="true"
+            android:onClick="onClick4"
+            android:src="@drawable/feuille" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:clickable="true"
+            android:onClick="onClick5"
+            android:src="@drawable/cizeau" />
+
+    </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tlayout2"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:src="@drawable/pierre" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:src="@drawable/feuille" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:src="@drawable/cizeau" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tlayout3"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/tlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:src="@drawable/pierre" />
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:src="@drawable/feuille" />
+
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:src="@drawable/cizeau" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textz"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_below="@id/button2"/>
+
+    <TextView
+        android:id="@+id/texty"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texty"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_below="@id/tlayout2"/>
+
+    <EditText
+        android:id="@+id/textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text2"
+        android:text="@string/textv"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:id="@+id/textw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text2"
+        android:text="@string/textw"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:id="@+id/textx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text2"
+        android:text="@string/textx"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/tlayout"
+        android:layout_marginHorizontal="10dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="@string/bouton2" />
+
+
+</RelativeLayout>
