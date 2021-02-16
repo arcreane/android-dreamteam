@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DreamGames</string>
+    <string name="text1">CHOISISSEZ UN DES JEUX</string>
+    <string name="bouton1">Pierre Feuille Ciseau</string>
+    <string name="bouton3">Morpion</string>
+    <string name="text">Le joueur X , c\'est à toi de jouer!</string>
+    <string name="text4">REJOUER</string>
+    <string name="text5">RETOUR</string>
 </resources>

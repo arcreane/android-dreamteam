@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Morpion">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/morpion"
+        android:layout_gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/pion0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/pion1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/pion2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/pion3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/pion4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/pion5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/pion6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/pion7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/pion8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                ></Button>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/text4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/text5" />
+
+
+</LinearLayout>
