@@ -3,4 +3,4 @@ L'application comprend 2 jeux :
 - Le SHIFUMI (Jeu solo contre une IA)
 - Le MORPION (Jeu à 2 joueurs)
 
-L'application finale se trouve surla branche Finale de github
+L'application finale se trouve sur la branche Finale de github
