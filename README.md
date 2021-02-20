@@ -1,2 +1,6 @@
-# Création d'une Application Mini-Jeux 
-Avec le SHIFUMI et le MORPION
+# Création d'une Application Mini-Jeux : DreamGames
+L'application comprend 2 jeux :
+- Le SHIFUMI (Jeu solo contre une IA)
+- Le MORPION (Jeu à 2 joueurs)
+
+L'application finale se trouve surla branche Finale de github
